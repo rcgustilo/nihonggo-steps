@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Nihongo Steps</string>
+    <string name="widget_name">Nihongo Steps</string>
+    <string name="widget_desc">Learn 5 Japanese words or phrases per session, at your own pace</string>
+    <string name="session_of">Session %1$d of %2$d</string>
+    <string name="stats_line">%1$d / %2$d sessions done  ·  🔥 %3$d-day streak</string>
+    <string name="listen">🔊 Listen</string>
+    <string name="speak">🎤 Speak</string>
+    <string name="say_it">Say: %1$s</string>
+    <string name="great">✓ Great! We heard: %1$s</string>
+    <string name="heard">We heard: %1$s. Try again, or mark it correct if it was right.</string>
+    <string name="mark_ok">It was right ✓</string>
+    <string name="marked_ok">✓ Marked as spoken</string>
+    <string name="no_speech">Speech input is not available. Install or update the Google app, then add Japanese in its voice settings.</string>
+    <string name="prev">◀</string>
+    <string name="next">▶</string>
+    <string name="play_all">▶ Play all</string>
+    <string name="finish_n">Finish ✓ (%1$d/%2$d spoken)</string>
+    <string name="session_done">Session %1$d complete! 🎉</string>
+    <string name="my_progress">My progress</string>
+    <string name="p_sessions">Sessions: %1$d of %2$d</string>
+    <string name="p_words">Words and phrases practised: %1$d of %2$d</string>
+    <string name="p_streak">Streak: %1$d days  (best %2$d)</string>
+    <string name="p_today">Sessions today: %1$d</string>
+    <string name="go_next">Next: session %1$d</string>
+    <string name="stay">Stay here</string>
+    <string name="lvl_basics">Stage 1: greetings and polite basics</string>
+    <string name="lvl_hiragana">Stage 2: hiragana</string>
+    <string name="lvl_sentences">Stage 3: everyday sentences</string>
+    <string name="lvl_katakana">Stage 4: katakana and conversation</string>
+    <string name="lvl_jlpt">Stage 5: %1$s</string>
+    <string name="m_goto">Go to session…</string>
+    <string name="m_progress">My progress</string>
+    <string name="m_speed">Speaking speed</string>
+    <string name="m_romaji">Show or hide romaji</string>
+    <string name="m_about">About and credits</string>
+    <string-array name="speeds">
+        <item>Slow</item>
+        <item>Relaxed (default)</item>
+        <item>Normal</item>
+    </string-array>
+    <string name="no_voice_title">Japanese voice needed</string>
+    <string name="no_voice_msg">To hear the words, install the Japanese voice for your phone\'s text-to-speech (Settings → General management → Text-to-speech, or Google Speech Services).</string>
+    <string name="install">Install voice</string>
+    <string name="later">Later</string>
+    <string name="about_text">1000 sessions of 5 words or phrases.\n\nSessions 1–84: a starter course of greetings, hiragana, everyday sentences and katakana, with a review every 7th session.\n\nSessions 85–1000: JLPT vocabulary from N5 (beginner) to N2, with reviews.\n\nVocabulary: open-anki-jlpt-decks by Jamie Sinclair (MIT licence), based on JLPT word lists and the JMdict dictionary.\n\nListening uses your phone\'s text-to-speech; speaking uses Google speech recognition.</string>
+    <string name="w_session">Session %1$d / %2$d</string>
+    <string name="w_progress">%1$d / %2$d sessions</string>
+    <string name="w_start">Start ▸</string>
+</resources>

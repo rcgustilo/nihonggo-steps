@@ -1,0 +1,506 @@
+#1|Greetings
+おはよう ございます|o-ha-yō go-zai-mas|Good morning (polite)
+こんにちは|kon-ni-chi-wa|Hello / Good afternoon
+こんばんは|kon-ban-wa|Good evening
+ありがとう ございます|a-ri-ga-tō go-zai-mas|Thank you (polite)
+すみません|su-mi-ma-sen|Excuse me / Sorry
+#2|Yes, no and please
+はい|ha-i|Yes
+いいえ|i-i-e|No
+おねがいします|o-ne-ga-i shi-mas|Please (when asking for something)
+どうぞ|dō-zo|Please, go ahead / Here you are
+いいですね|i-i des ne|That's nice / Sounds good
+#3|Introducing yourself
+はじめまして|ha-ji-me-ma-shi-te|Nice to meet you (first meeting)
+わたしは ___ です|wa-ta-shi wa ___ des|I am ___ (say your name)
+よろしく おねがいします|yo-ro-shi-ku o-ne-ga-i shi-mas|Pleased to meet you
+おなまえは?|o-na-ma-e wa?|What is your name?
+フィリピンじん です|fi-ri-pin-jin des|I am Filipino
+#4|Goodbyes
+さようなら|sa-yō-na-ra|Goodbye (parting for a long time)
+またね|ma-ta ne|See you (casual)
+じゃあ また|jā ma-ta|See you later
+おやすみなさい|o-ya-su-mi-na-sa-i|Good night
+いってきます|it-te-ki-mas|I'm off (said when leaving home)
+#5|Numbers 1 to 5
+いち|i-chi|1
+に|ni|2
+さん|san|3
+よん / し|yon / shi|4 (yon is more common)
+ご|go|5
+#6|Numbers 6 to 10
+ろく|ro-ku|6
+なな / しち|na-na / shi-chi|7 (nana is more common)
+はち|ha-chi|8
+きゅう / く|kyū / ku|9 (kyū is more common)
+じゅう|jū|10
+#7|Review
+こんにちは|kon-ni-chi-wa|Hello
+ありがとう ございます|a-ri-ga-tō go-zai-mas|Thank you (polite)
+はじめまして|ha-ji-me-ma-shi-te|Nice to meet you
+おねがいします|o-ne-ga-i shi-mas|Please
+いち、に、さん、よん、ご|i-chi, ni, san, yon, go|Count 1 to 5
+#8|Polite expressions
+ごめんなさい|go-men-na-sa-i|I'm sorry
+だいじょうぶ です|da-i-jō-bu des|It's okay / I'm fine
+どういたしまして|dō i-ta-shi-ma-shi-te|You're welcome
+いただきます|i-ta-da-ki-mas|Said before eating
+ごちそうさま でした|go-chi-sō-sa-ma de-shi-ta|Said after eating (thanks for the meal)
+#9|Question words
+なん / なに|nan / na-ni|What
+どこ|do-ko|Where
+いつ|i-tsu|When
+だれ|da-re|Who
+いくら|i-ku-ra|How much (price)
+#10|Family
+かぞく|ka-zo-ku|Family
+ちち|chi-chi|My father
+はは|ha-ha|My mother
+あに|a-ni|My older brother
+あね|a-ne|My older sister
+#11|Time words
+きょう|kyō|Today
+あした|a-shi-ta|Tomorrow
+きのう|ki-nō|Yesterday
+いま|i-ma|Now
+あさ|a-sa|Morning
+#12|Everyday needs
+みず|mi-zu|Water
+トイレ|to-i-re|Toilet
+たべもの|ta-be-mo-no|Food
+えき|e-ki|Train station
+びょういん|byō-in|Hospital
+#13|Useful phrases
+わかりません|wa-ka-ri-ma-sen|I don't understand
+もういちど おねがいします|mō i-chi-do o-ne-ga-i shi-mas|Once more, please
+ゆっくり おねがいします|yuk-ku-ri o-ne-ga-i shi-mas|Slowly, please
+にほんごが すこし わかります|ni-hon-go ga su-ko-shi wa-ka-ri-mas|I understand a little Japanese
+えいごが わかりますか?|ei-go ga wa-ka-ri-mas ka?|Do you understand English?
+#14|Review
+ごめんなさい|go-men-na-sa-i|I'm sorry
+どこ|do-ko|Where
+あした|a-shi-ta|Tomorrow
+みず|mi-zu|Water
+わかりません|wa-ka-ri-ma-sen|I don't understand
+#15|Hiragana あいうえお
+あ|a|Example: あい (ai) = love
+い|i|Example: いえ (ie) = house
+う|u|Example: うえ (ue) = up, above
+え|e|Example: え (e) = picture
+お|o|Example: あお (ao) = blue
+#16|Hiragana かきくけこ
+か|ka|Example: かお (kao) = face
+き|ki|Example: き (ki) = tree
+く|ku|Example: いく (iku) = to go
+け|ke|Example: いけ (ike) = pond
+こ|ko|Example: ここ (koko) = here
+#17|Hiragana さしすせそ
+さ|sa|Example: かさ (kasa) = umbrella
+し|shi|Example: しお (shio) = salt. Said shi, not si
+す|su|Example: すし (sushi) = sushi
+せ|se|Example: せき (seki) = seat
+そ|so|Example: そこ (soko) = there
+#18|Hiragana たちつてと
+た|ta|Example: たかい (takai) = expensive, tall
+ち|chi|Example: ちかい (chikai) = near. Said chi, not ti
+つ|tsu|Example: つくえ (tsukue) = desk. Said tsu, not tu
+て|te|Example: て (te) = hand
+と|to|Example: とけい (tokei) = clock
+#19|Hiragana なにぬねの
+な|na|Example: なつ (natsu) = summer
+に|ni|Example: にく (niku) = meat
+ぬ|nu|Example: いぬ (inu) = dog
+ね|ne|Example: ねこ (neko) = cat
+の|no|Example: のむ (nomu) = to drink
+#20|Hiragana はひふへほ
+は|ha|Example: はな (hana) = flower. Read wa as a particle
+ひ|hi|Example: ひと (hito) = person
+ふ|fu|Example: ふね (fune) = ship. Soft, between f and h
+へ|he|Example: へた (heta) = unskillful. Read e as a particle
+ほ|ho|Example: ほし (hoshi) = star
+#21|Review
+あい|a-i|Love
+かお|ka-o|Face
+すし|su-shi|Sushi
+ねこ|ne-ko|Cat
+はな|ha-na|Flower
+#22|Hiragana まみむめも
+ま|ma|Example: まち (machi) = town
+み|mi|Example: みみ (mimi) = ear
+む|mu|Example: むし (mushi) = insect
+め|me|Example: め (me) = eye
+も|mo|Example: もも (momo) = peach
+#23|Hiragana やゆよわをん
+や|ya|Example: やま (yama) = mountain
+ゆ|yu|Example: ゆき (yuki) = snow
+よ|yo|Example: よる (yoru) = night
+わ|wa|Example: わたし (watashi) = I, me
+を|o|Particle only: みずを のみます = I drink water
+ん|n|Example: ほん (hon) = book
+#24|Hiragana らりるれろ
+ら|ra|Example: そら (sora) = sky. A light tap, like Filipino r
+り|ri|Example: りんご (ringo) = apple
+る|ru|Example: くるま (kuruma) = car
+れ|re|Example: れきし (rekishi) = history
+ろ|ro|Example: いろ (iro) = color
+#25|Hiragana がぎぐげご
+が|ga|Dakuten turns k into g. Example: めがね (megane) = glasses
+ぎ|gi|Example: かぎ (kagi) = key
+ぐ|gu|Example: かぐ (kagu) = furniture
+げ|ge|Example: げんき (genki) = healthy, energetic
+ご|go|Example: ごはん (gohan) = rice, meal
+#26|Hiragana ざじずぜぞ
+ざ|za|Dakuten turns s into z. Example: ざる (zaru) = strainer
+じ|ji|Example: じかん (jikan) = time
+ず|zu|Example: みず (mizu) = water
+ぜ|ze|Example: かぜ (kaze) = wind; a cold
+ぞ|zo|Example: ぞう (zō) = elephant
+#27|Hiragana だぢづでど
+だ|da|Dakuten turns t into d. Example: だれ (dare) = who
+ぢ|ji|Rare; sounds like じ. Example: はなぢ (hanaji) = nosebleed
+づ|zu|Rare; sounds like ず. Example: つづく (tsuzuku) = to continue
+で|de|Example: でんわ (denwa) = telephone
+ど|do|Example: どこ (doko) = where
+#28|Review
+やま|ya-ma|Mountain
+ゆき|yu-ki|Snow
+ごはん|go-han|Rice, meal
+みず|mi-zu|Water
+でんわ|den-wa|Telephone
+#29|Hiragana ばびぶべぼ
+ば|ba|Dakuten turns h into b. Example: ばら (bara) = rose
+び|bi|Example: えび (ebi) = shrimp
+ぶ|bu|Example: ぶた (buta) = pig
+べ|be|Example: べんり (benri) = convenient
+ぼ|bo|Example: ぼうし (bōshi) = hat
+#30|Hiragana ぱぴぷぺぽ
+ぱ|pa|A small circle turns h into p. Example: かんぱい (kanpai) = cheers
+ぴ|pi|Example: えんぴつ (enpitsu) = pencil
+ぷ|pu|Example: てんぷら (tenpura) = tempura
+ぺ|pe|Example: ぺらぺら (perapera) = fluent
+ぽ|po|Example: さんぽ (sanpo) = a walk
+#31|Combined sounds
+きゃ|kya|Small ゃゅょ blend in. Example: きゃく (kyaku) = guest
+きゅ|kyu|Example: きゅうり (kyūri) = cucumber
+きょ|kyo|Example: きょう (kyō) = today
+しゃ|sha|Example: しゃしん (shashin) = photo
+しゅ|shu|Example: しゅくだい (shukudai) = homework
+#32|More combined sounds
+しょ|sho|Example: しょくじ (shokuji) = meal
+ちゃ|cha|Example: おちゃ (ocha) = tea
+ちゅ|chu|Example: ちゅうい (chūi) = caution
+ちょ|cho|Example: ちょっと (chotto) = a little
+じゃ|ja|Example: じゃあ (jā) = well then
+#33|Small っ (double sounds)
+きって|kit-te|Stamp. Small っ = a short pause
+がっこう|gak-kō|School
+ちょっと|chot-to|A little; just a moment
+まって|mat-te|Wait!
+にっぽん|nip-pon|Japan
+#34|Long vowels
+おかあさん|o-kā-san|Mother. A doubled vowel is held longer
+おにいさん|o-nī-san|Older brother
+くうき|kū-ki|Air
+せんせい|sen-sei|Teacher. えい sounds like a long e
+おおきい|ō-ki-i|Big
+#35|Review
+ぶた|bu-ta|Pig
+てんぷら|ten-pu-ra|Tempura
+しゃしん|sha-shin|Photo
+きょう|kyō|Today
+がっこう|gak-kō|School
+#36|Animals and nature
+いぬ|i-nu|Dog
+ねこ|ne-ko|Cat
+さかな|sa-ka-na|Fish
+やま|ya-ma|Mountain
+うみ|u-mi|Sea
+#37|People and things
+ともだち|to-mo-da-chi|Friend
+がくせい|ga-ku-sei|Student
+くるま|ku-ru-ma|Car
+でんわ|den-wa|Telephone
+ほん|hon|Book
+#38|Particles
+わたしは|wa-ta-shi wa|は is read wa: marks the topic
+みずを のみます|mi-zu o no-mi-mas|I drink water. を marks the object
+がっこうへ いきます|gak-kō e i-ki-mas|I go to school. へ (e) = direction
+いえに かえります|i-e ni ka-e-ri-mas|I go back home. に = to, at
+いえで たべます|i-e de ta-be-mas|I eat at home. で = at, by means of
+#39|Days of the week
+げつようび|ge-tsu-yō-bi|Monday
+かようび|ka-yō-bi|Tuesday
+すいようび|su-i-yō-bi|Wednesday
+もくようび|mo-ku-yō-bi|Thursday
+きんようび|kin-yō-bi|Friday
+#40|Weekend and time
+どようび|do-yō-bi|Saturday
+にちようび|ni-chi-yō-bi|Sunday
+しゅうまつ|shū-ma-tsu|Weekend
+まいにち|ma-i-ni-chi|Every day
+なんじ|nan-ji|What time
+#41|Colors
+あか|a-ka|Red
+あお|a-o|Blue
+しろ|shi-ro|White
+くろ|ku-ro|Black
+きいろ|ki-i-ro|Yellow
+#42|Review
+ともだち|to-mo-da-chi|Friend
+げつようび|ge-tsu-yō-bi|Monday
+まいにち|ma-i-ni-chi|Every day
+あか|a-ka|Red
+みずを のみます|mi-zu o no-mi-mas|I drink water
+#43|Self-introduction
+わたしは ___ です|wa-ta-shi wa ___ des|I am ___
+___ から きました|___ ka-ra ki-ma-shi-ta|I came from ___
+___ に すんでいます|___ ni sun-de i-mas|I live in ___
+しごとは ___ です|shi-go-to wa ___ des|My job is ___
+しゅみは ___ です|shu-mi wa ___ des|My hobby is ___
+#44|Numbers 11 to 100
+じゅういち|jū-i-chi|11 (10 + 1)
+にじゅう|ni-jū|20 (2 x 10)
+さんじゅう|san-jū|30
+ごじゅう|go-jū|50
+ひゃく|hya-ku|100
+#45|Money and prices
+せん|sen|1,000
+いちまん|i-chi-man|10,000
+___ えん|___ en|___ yen
+いくら ですか?|i-ku-ra des ka?|How much is it?
+たかい です|ta-ka-i des|It's expensive
+#46|Telling time
+___ じ|___ ji|___ o'clock (さんじ = 3:00)
+___ ふん / ぷん|___ fun / pun|___ minutes (ごふん = 5 minutes)
+はん|han|Half past (しちじはん = 7:30)
+ごぜん|go-zen|a.m.
+ごご|go-go|p.m.
+#47|Food words
+ごはん|go-han|Cooked rice; meal
+にく|ni-ku|Meat
+やさい|ya-sa-i|Vegetables
+たまご|ta-ma-go|Egg
+くだもの|ku-da-mo-no|Fruit
+#48|At a restaurant
+___ を ください|___ o ku-da-sa-i|___, please (give me ___)
+おすすめは なんですか?|o-su-su-me wa nan des ka?|What do you recommend?
+おいしい です|o-i-shi-i des|It's delicious
+おかいけい おねがいします|o-ka-i-kei o-ne-ga-i shi-mas|The bill, please
+___ は ありますか?|___ wa a-ri-mas ka?|Do you have ___?
+#49|Review
+わたしは ___ です|wa-ta-shi wa ___ des|I am ___
+ひゃく|hya-ku|100
+いくら ですか?|i-ku-ra des ka?|How much is it?
+ごぜん / ごご|go-zen / go-go|a.m. / p.m.
+おいしい です|o-i-shi-i des|It's delicious
+#50|Shopping: this and that
+これ|ko-re|This (near me)
+それ|so-re|That (near you)
+あれ|a-re|That (over there)
+これを ください|ko-re o ku-da-sa-i|This one, please
+みても いいですか?|mi-te mo i-i des ka?|May I take a look?
+#51|Direction words
+みぎ|mi-gi|Right
+ひだり|hi-da-ri|Left
+まっすぐ|mas-su-gu|Straight ahead
+ちかい|chi-ka-i|Near
+とおい|tō-i|Far
+#52|Asking the way
+___ は どこですか?|___ wa do-ko des ka?|Where is ___?
+えきは どこですか?|e-ki wa do-ko des ka?|Where is the station?
+ここ|ko-ko|Here
+そこ|so-ko|There (near you)
+あそこ|a-so-ko|Over there
+#53|Basic verbs
+たべます|ta-be-mas|Eat
+のみます|no-mi-mas|Drink
+いきます|i-ki-mas|Go
+きます|ki-mas|Come
+みます|mi-mas|See, watch
+#54|More verbs
+かいます|ka-i-mas|Buy
+よみます|yo-mi-mas|Read
+かきます|ka-ki-mas|Write
+ねます|ne-mas|Sleep
+おきます|o-ki-mas|Wake up
+#55|Not, and the past
+たべません|ta-be-ma-sen|I don't eat. -masen = not
+たべました|ta-be-ma-shi-ta|I ate. -mashita = past
+たべません でした|ta-be-ma-sen de-shi-ta|I didn't eat
+いきました|i-ki-ma-shi-ta|I went
+いきません|i-ki-ma-sen|I don't go / I won't go
+#56|Review
+これを ください|ko-re o ku-da-sa-i|This one, please
+みぎ / ひだり|mi-gi / hi-da-ri|Right / Left
+えきは どこですか?|e-ki wa do-ko des ka?|Where is the station?
+たべます|ta-be-mas|Eat
+いきました|i-ki-ma-shi-ta|I went
+#57|-i adjectives
+おおきい|ō-ki-i|Big
+ちいさい|chi-i-sa-i|Small
+あつい|a-tsu-i|Hot (weather, food)
+さむい|sa-mu-i|Cold (weather)
+たのしい|ta-no-shi-i|Fun, enjoyable
+#58|-na adjectives
+きれい|ki-rei|Pretty; clean
+しずか|shi-zu-ka|Quiet
+げんき|gen-ki|Healthy, energetic
+すき|su-ki|Liked, favorite
+じょうず|jō-zu|Skillful, good at
+#59|Likes and dislikes
+___ が すきです|___ ga su-ki des|I like ___
+___ が きらいです|___ ga ki-ra-i des|I dislike ___
+なにが すきですか?|na-ni ga su-ki des ka?|What do you like?
+にほんりょうりが すきです|ni-hon-ryō-ri ga su-ki des|I like Japanese food
+だいすき です|da-i-su-ki des|I love it
+#60|Health
+ぐあいが わるいです|gu-a-i ga wa-ru-i des|I feel unwell
+あたまが いたいです|a-ta-ma ga i-ta-i des|I have a headache
+おなかが いたいです|o-na-ka ga i-ta-i des|I have a stomachache
+くすり|ku-su-ri|Medicine
+いしゃ|i-sha|Doctor
+#61|Getting around
+でんしゃ|den-sha|Train
+ちかてつ|chi-ka-te-tsu|Subway
+ひこうき|hi-kō-ki|Airplane
+あるいて|a-ru-i-te|On foot, walking
+きっぷ|kip-pu|Ticket
+#62|Weather
+てんき|ten-ki|Weather
+はれ|ha-re|Sunny, clear
+あめ|a-me|Rain
+ゆき|yu-ki|Snow
+いい てんきですね|i-i ten-ki des ne|Nice weather, isn't it?
+#63|Review
+たのしい|ta-no-shi-i|Fun
+___ が すきです|___ ga su-ki des|I like ___
+あたまが いたいです|a-ta-ma ga i-ta-i des|I have a headache
+でんしゃ|den-sha|Train
+いい てんきですね|i-i ten-ki des ne|Nice weather, isn't it?
+#64|Wants
+___ が ほしいです|___ ga ho-shi-i des|I want ___ (a thing)
+たべたい です|ta-be-ta-i des|I want to eat. -tai = want to
+いきたい です|i-ki-ta-i des|I want to go
+なにが したいですか?|na-ni ga shi-ta-i des ka?|What do you want to do?
+やすみたい です|ya-su-mi-ta-i des|I want to rest
+#65|Asking for help
+まって ください|mat-te ku-da-sa-i|Please wait
+みて ください|mi-te ku-da-sa-i|Please look
+もういちど いって ください|mō i-chi-do it-te ku-da-sa-i|Please say it once more
+てつだって ください|te-tsu-dat-te ku-da-sa-i|Please help me
+ちょっと まって ください|chot-to mat-te ku-da-sa-i|Please wait a moment
+#66|Asking permission
+しゃしんを とっても いいですか?|sha-shin o tot-te mo i-i des ka?|May I take a photo?
+すわっても いいですか?|su-wat-te mo i-i des ka?|May I sit down?
+はいっても いいですか?|ha-it-te mo i-i des ka?|May I come in?
+どうぞ|dō-zo|Go ahead (yes)
+だめ です|da-me des|Not allowed (no)
+#67|Making plans
+あした なにを しますか?|a-shi-ta na-ni o shi-mas ka?|What will you do tomorrow?
+___ に いきます|___ ni i-ki-mas|I'll go to ___
+いっしょに いきませんか?|is-sho ni i-ki-ma-sen ka?|Would you like to go together?
+いいですね|i-i des ne|Sounds good
+ざんねんですが...|zan-nen des ga...|Unfortunately... (polite no)
+#68|Phone calls and meeting up
+もしもし|mo-shi-mo-shi|Hello (on the phone)
+___ さんは いますか?|___ san wa i-mas ka?|Is ___ there?
+なんじに あいましょうか?|nan-ji ni a-i-ma-shō ka?|What time shall we meet?
+___ で あいましょう|___ de a-i-ma-shō|Let's meet at ___
+おくれて すみません|o-ku-re-te su-mi-ma-sen|Sorry I'm late
+#69|Feelings
+うれしい です|u-re-shi-i des|I'm happy
+かなしい です|ka-na-shi-i des|I'm sad
+つかれました|tsu-ka-re-ma-shi-ta|I'm tired
+おなかが すきました|o-na-ka ga su-ki-ma-shi-ta|I'm hungry
+のどが かわきました|no-do ga ka-wa-ki-ma-shi-ta|I'm thirsty
+#70|Review
+たべたい です|ta-be-ta-i des|I want to eat
+まって ください|mat-te ku-da-sa-i|Please wait
+しゃしんを とっても いいですか?|sha-shin o tot-te mo i-i des ka?|May I take a photo?
+いっしょに いきませんか?|is-sho ni i-ki-ma-sen ka?|Would you like to go together?
+つかれました|tsu-ka-re-ma-shi-ta|I'm tired
+#71|Katakana アイウエオ
+ア|a|Katakana is for foreign words. アイス (aisu) = ice cream
+イ|i|Example: イギリス (Igirisu) = the UK
+ウ|u|Example: ウイルス (uirusu) = virus
+エ|e|Example: エアコン (eakon) = air conditioner
+オ|o|Example: オレンジ (orenji) = orange
+#72|Katakana カキクケコ
+カ|ka|Example: カメラ (kamera) = camera
+キ|ki|Example: キス (kisu) = kiss
+ク|ku|Example: クラス (kurasu) = class
+ケ|ke|Example: ケーキ (kēki) = cake. ー makes a vowel long
+コ|ko|Example: コーヒー (kōhī) = coffee
+#73|Katakana サシスセソ
+サ|sa|Example: サラダ (sarada) = salad
+シ|shi|Example: シャツ (shatsu) = shirt. Not the same as ツ
+ス|su|Example: スープ (sūpu) = soup
+セ|se|Example: セーター (sētā) = sweater
+ソ|so|Example: ソース (sōsu) = sauce. Not the same as ン
+#74|Katakana タチツテト
+タ|ta|Example: タクシー (takushī) = taxi
+チ|chi|Example: チーズ (chīzu) = cheese
+ツ|tsu|Example: ツアー (tsuā) = tour
+テ|te|Example: テレビ (terebi) = TV
+ト|to|Example: トマト (tomato) = tomato
+#75|Katakana ナニヌネノ
+ナ|na|Example: ナイフ (naifu) = knife
+ニ|ni|Example: テニス (tenisu) = tennis
+ヌ|nu|Example: カヌー (kanū) = canoe
+ネ|ne|Example: ネクタイ (nekutai) = necktie
+ノ|no|Example: ノート (nōto) = notebook
+#76|Katakana ハヒフヘホ
+ハ|ha|Example: ハンバーガー (hanbāgā) = hamburger
+ヒ|hi|Example: コーヒー (kōhī) = coffee
+フ|fu|Example: フォーク (fōku) = fork
+ヘ|he|Example: ヘリコプター (herikoputā) = helicopter
+ホ|ho|Example: ホテル (hoteru) = hotel
+#77|Review
+ケーキ|kē-ki|Cake
+ノート|nō-to|Notebook
+テニス|te-ni-su|Tennis
+ナイフ|na-i-fu|Knife
+スキー|su-kī|Skiing
+#78|Katakana マミムメモ
+マ|ma|Example: マスク (masuku) = face mask
+ミ|mi|Example: ミルク (miruku) = milk
+ム|mu|Example: ゲーム (gēmu) = game
+メ|me|Example: メール (mēru) = email
+モ|mo|Example: メモ (memo) = memo, note
+#79|Katakana ヤユヨワヲン
+ヤ|ya|Example: タイヤ (taiya) = tire
+ユ|yu|Example: ユーモア (yūmoa) = humor
+ヨ|yo|Example: ヨーグルト (yōguruto) = yogurt
+ワ|wa|Example: ワイン (wain) = wine
+ヲ|o|Almost never used in everyday writing
+ン|n|Example: パン (pan) = bread
+#80|Katakana ラリルレロ
+ラ|ra|Example: ラジオ (rajio) = radio
+リ|ri|Example: リモコン (rimokon) = remote control
+ル|ru|Example: ルール (rūru) = rule
+レ|re|Example: レモン (remon) = lemon
+ロ|ro|Example: ロボット (robotto) = robot
+#81|Katakana everyday words
+カメラ|ka-me-ra|Camera
+アイスクリーム|a-i-su-ku-rī-mu|Ice cream
+コンビニ|kon-bi-ni|Convenience store
+スマホ|su-ma-ho|Smartphone
+タクシー|ta-ku-shī|Taxi
+#82|At a hotel
+よやくして います|yo-ya-ku shi-te i-mas|I have a reservation
+チェックイン おねがいします|chek-ku-in o-ne-ga-i shi-mas|Check-in, please
+なまえは ___ です|na-ma-e wa ___ des|My name is ___
+Wi-Fiの パスワードは?|wai-fai no pa-su-wā-do wa?|What's the Wi-Fi password?
+チェックアウトは なんじですか?|chek-ku-a-u-to wa nan-ji des ka?|What time is check-out?
+#83|At a convenience store
+ふくろ いりますか?|fu-ku-ro i-ri-mas ka?|Do you need a bag? (cashier)
+いいえ、だいじょうぶ です|i-i-e, da-i-jō-bu des|No, I'm fine
+あたためますか?|a-ta-ta-me-mas ka?|Shall I heat it up? (cashier)
+はい、おねがいします|ha-i, o-ne-ga-i shi-mas|Yes, please
+カードで はらえますか?|kā-do de ha-ra-e-mas ka?|Can I pay by card?
+#84|Final review
+はじめまして、よろしく おねがいします|ha-ji-me-ma-shi-te, yo-ro-shi-ku o-ne-ga-i shi-mas|Nice to meet you
+えきは どこですか?|e-ki wa do-ko des ka?|Where is the station?
+これを ください|ko-re o ku-da-sa-i|This one, please
+コンビニ|kon-bi-ni|Convenience store
+ありがとう ございました|a-ri-ga-tō go-zai-ma-shi-ta|Thank you very much (for what you did)

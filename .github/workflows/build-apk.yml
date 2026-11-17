@@ -1,0 +1,39 @@
+name: Build APK
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Build debug APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon --stacktrace
+          cp app/build/outputs/apk/debug/app-debug.apk NihongoSteps.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NihongoSteps-apk
+          path: NihongoSteps.apk
+
+      - name: Publish to Releases (easy phone download)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="build-${{ github.run_number }}"
+          gh release create "$TAG" NihongoSteps.apk --title "Nihongo Steps $TAG" --notes "Download NihongoSteps.apk below and open it on your phone." --latest
