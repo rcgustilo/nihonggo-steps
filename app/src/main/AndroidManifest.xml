@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Microphone for the hands-free conversation check -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <!-- Lets the app check that a speech recognizer and a text-to-speech engine are installed -->
     <queries>
         <intent>
@@ -8,6 +11,9 @@
         </intent>
         <intent>
             <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
         </intent>
     </queries>
 
@@ -27,6 +33,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ConversationActivity"
+            android:exported="false"
+            android:label="Conversation check"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|density" />
 
         <receiver
             android:name=".LearnWidget"

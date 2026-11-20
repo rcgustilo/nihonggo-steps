@@ -39,6 +39,14 @@ public class Speaker {
         tts.speak(text, queue ? TextToSpeech.QUEUE_ADD : TextToSpeech.QUEUE_FLUSH, null, "u" + System.nanoTime());
     }
 
+    /** Speaks with a known utterance id, so a listener can react when this one finishes. */
+    public void speakId(String text, boolean queue, String id) {
+        if (!ready) { pending.add(text); return; }
+        tts.speak(text, queue ? TextToSpeech.QUEUE_ADD : TextToSpeech.QUEUE_FLUSH, null, id);
+    }
+
+    public boolean isReady() { return ready && japanese; }
+
     public void pause(long ms) {
         if (ready) tts.playSilentUtterance(ms, TextToSpeech.QUEUE_ADD, "p" + System.nanoTime());
     }

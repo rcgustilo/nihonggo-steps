@@ -115,6 +115,63 @@ public final class Progress {
         return Math.min(from, Data.SESSIONS);
     }
 
+    // ---- conversation checks ----
+    /** Sessions finished since the last conversation check, oldest first. */
+    public static java.util.List<Integer> pendingCheck(Context c) {
+        java.util.List<Integer> out = new java.util.ArrayList<>();
+        for (String t : prefs(c).getString("pendingCheck", "").split(",")) {
+            try { if (!t.isEmpty()) out.add(Integer.parseInt(t)); } catch (NumberFormatException ignored) { }
+        }
+        return out;
+    }
+
+    public static void addPending(Context c, int session) {
+        java.util.List<Integer> l = pendingCheck(c);
+        if (l.contains(session)) return;
+        l.add(session);
+        StringBuilder b = new StringBuilder();
+        for (int s : l) { if (b.length() > 0) b.append(','); b.append(s); }
+        prefs(c).edit().putString("pendingCheck", b.toString()).apply();
+    }
+
+    public static void clearPending(Context c) { prefs(c).edit().putString("pendingCheck", "").apply(); }
+
+    /** How many finished sessions trigger a check (0 = never). */
+    public static int checkEvery(Context c) { return prefs(c).getInt("checkEvery", 10); }
+    public static void setCheckEvery(Context c, int n) { prefs(c).edit().putInt("checkEvery", n).apply(); }
+
+    public static boolean checkDue(Context c) {
+        int n = checkEvery(c);
+        return n > 0 && pendingCheck(c).size() >= n;
+    }
+
+    /** Saves a finished check: label such as "Sessions 11-20", score and number of questions. */
+    public static void addCheck(Context c, String label, int score, int total) {
+        try {
+            org.json.JSONArray a = new org.json.JSONArray(prefs(c).getString("checks", "[]"));
+            JSONObject o = new JSONObject();
+            o.put("day", today()); o.put("label", label); o.put("score", score); o.put("total", total);
+            a.put(o);
+            while (a.length() > 30) a.remove(0);
+            prefs(c).edit().putString("checks", a.toString()).apply();
+        } catch (Exception ignored) { }
+    }
+
+    /** The last few checks, newest first, as display lines. */
+    public static java.util.List<String> checkLines(Context c, int max) {
+        java.util.List<String> out = new java.util.ArrayList<>();
+        try {
+            org.json.JSONArray a = new org.json.JSONArray(prefs(c).getString("checks", "[]"));
+            for (int i = a.length() - 1; i >= 0 && out.size() < max; i--) {
+                JSONObject o = a.getJSONObject(i);
+                int sc = o.getInt("score"), t = o.getInt("total");
+                out.add(String.format(Locale.US, "%s: %d/%d (%d%%), %s", o.getString("day"), sc, t,
+                        t == 0 ? 0 : Math.round(sc * 100f / t), o.getString("label")));
+            }
+        } catch (Exception ignored) { }
+        return out;
+    }
+
     // ---- settings ----
     public static float rate(Context c) { return prefs(c).getFloat("rate", 0.75f); }
     public static void setRate(Context c, float r) { prefs(c).edit().putFloat("rate", r).apply(); }

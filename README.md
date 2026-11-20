@@ -19,6 +19,19 @@
    - daily streak and best streak;
    - sessions today.
 
+## Conversation check (every 10 sessions)
+After every 10 finished sessions (you can choose 5, 10, 15, 20 or never in the menu), the app offers a **conversation check**: a short spoken back-and-forth about the sessions since the last check.
+- **Hands-free:** the app speaks in Japanese, then the microphone turns on by itself and shows what it hears as you speak. It checks your answer, praises you or gives a hint, and moves on.
+- **Four kinds of question (10 per check):**
+  - say a word or phrase in Japanese from its English meaning;
+  - listen and pick the meaning;
+  - repeat after the app;
+  - reply in a real exchange, for example "ありがとう ございます" → "どういたしまして", or "おなまえは?" → "わたしは … です".
+- **Two tries per question,** with a hint after the first. "It was right ✓" covers answers the recognizer writes in kanji.
+- **Results:** your score, a breakdown by skill and by session, sessions marked "← review", and the missed words with 🔊. A button takes you straight to the first session to review.
+- **Any time:** start a check from the menu (🗣 Conversation check). My progress shows your last checks and when the next one is due.
+- The first check asks for microphone permission. If you decline, each answer uses the Google voice pop-up instead.
+
 ## The widget
 - **Card:** shows the current session's words one at a time (◀ ▶), with romaji and meaning.
 - **🔊 Listen:** speaks the word right from the home screen.

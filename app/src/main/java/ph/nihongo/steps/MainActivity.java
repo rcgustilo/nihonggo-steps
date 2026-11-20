@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 
     public static final String EXTRA_SESSION = "session";
     private static final int REQ_SPEAK = 100;
-    private static final int M_GOTO = 1, M_SPEED = 2, M_ROMAJI = 3, M_PROGRESS = 4, M_ABOUT = 5;
+    private static final int M_GOTO = 1, M_SPEED = 2, M_ROMAJI = 3, M_PROGRESS = 4, M_ABOUT = 5, M_CHECK = 6, M_CHECK_EVERY = 7;
 
     private Speaker speaker;
     private int session;
@@ -135,7 +135,9 @@ public class MainActivity extends Activity {
         int done = Progress.doneCount(this);
         overall.setMax(Data.SESSIONS);
         overall.setProgress(done);
-        stats.setText(getString(R.string.stats_line, done, Data.SESSIONS, Progress.streak(this)));
+        String line = getString(R.string.stats_line, done, Data.SESSIONS, Progress.streak(this));
+        if (Progress.checkDue(this)) line += "  ·  🗣 check due";
+        stats.setText(line);
     }
 
     private void playAll() {
@@ -210,6 +212,7 @@ public class MainActivity extends Activity {
     private void finishSession() {
         speaker.stop();
         Progress.finish(this, session);
+        Progress.addPending(this, session);
         refreshStats();
         LearnWidget.updateAll(this);
         int next = Progress.nextUnfinished(this, Math.min(session + 1, Data.SESSIONS));
@@ -232,13 +235,26 @@ public class MainActivity extends Activity {
         ((TextView) v.findViewById(R.id.p_sessions)).setText(getString(R.string.p_sessions, sessions, Data.SESSIONS));
         ((TextView) v.findViewById(R.id.p_words)).setText(getString(R.string.p_words, words, total));
         ((TextView) v.findViewById(R.id.p_streak)).setText(getString(R.string.p_streak, Progress.streak(this), Progress.best(this)));
-        ((TextView) v.findViewById(R.id.p_today)).setText(getString(R.string.p_today, Progress.sessionsOn(this, Progress.today())));
+        StringBuilder today = new StringBuilder(getString(R.string.p_today, Progress.sessionsOn(this, Progress.today())));
+        List<String> checks = Progress.checkLines(this, 3);
+        if (!checks.isEmpty()) {
+            today.append("\n\nConversation checks:");
+            for (String l : checks) today.append("\n•  ").append(l);
+        }
+        int every = Progress.checkEvery(this), pending = Progress.pendingCheck(this).size();
+        if (every > 0) today.append("\n\nNext check: after ").append(Math.max(0, every - pending)).append(" more session(s)");
+        ((TextView) v.findViewById(R.id.p_today)).setText(today.toString());
         ((TextView) v.findViewById(R.id.p_level)).setText(levelText(session));
 
         AlertDialog.Builder b = new AlertDialog.Builder(this).setView(v);
         if (justFinished) {
             b.setPositiveButton(getString(R.string.go_next, next), (d, w) -> show(next));
             b.setNegativeButton(R.string.stay, null);
+            if (Progress.checkDue(this)) {
+                b.setNeutralButton("🗣 Conversation check", (d, w) -> startCheck());
+                ((TextView) v.findViewById(R.id.p_title)).setText(getString(R.string.session_done, session)
+                        + "\n🗣 Time for a conversation check on your last " + Progress.pendingCheck(this).size() + " sessions!");
+            }
         } else {
             b.setPositiveButton(android.R.string.ok, null);
         }
@@ -263,6 +279,8 @@ public class MainActivity extends Activity {
         menu.add(0, M_PROGRESS, 1, R.string.m_progress);
         menu.add(0, M_SPEED, 2, R.string.m_speed);
         menu.add(0, M_ROMAJI, 3, R.string.m_romaji);
+        menu.add(0, M_CHECK, 1, "🗣 Conversation check");
+        menu.add(0, M_CHECK_EVERY, 3, "Conversation check every…");
         menu.add(0, M_ABOUT, 4, R.string.m_about);
         return true;
     }
@@ -273,6 +291,8 @@ public class MainActivity extends Activity {
             case M_GOTO: askSession(); return true;
             case M_PROGRESS: showProgress(false, session); return true;
             case M_SPEED: chooseSpeed(); return true;
+            case M_CHECK: startCheck(); return true;
+            case M_CHECK_EVERY: chooseCheckEvery(); return true;
             case M_ROMAJI:
                 Progress.setShowRomaji(this, !Progress.showRomaji(this));
                 show(session);
@@ -296,6 +316,47 @@ public class MainActivity extends Activity {
                     try { show(Integer.parseInt(e.getText().toString().trim())); } catch (NumberFormatException ignored) { }
                 })
                 .setNegativeButton(android.R.string.cancel, null).show();
+    }
+
+    /** Opens a conversation check on the sessions finished since the last check (or the most recent ones). */
+    private void startCheck() {
+        List<Integer> pending = Progress.pendingCheck(this);
+        boolean fromPending = pending.size() >= 3;
+        List<Integer> list = new ArrayList<>();
+        if (fromPending) list.addAll(pending);
+        else {
+            boolean[] d = Progress.done(this);
+            for (int s = Data.SESSIONS; s >= 1 && list.size() < 10; s--) if (d[s] && s <= Math.max(session, 1) + 10) list.add(0, s);
+        }
+        if (list.isEmpty()) {
+            Toast.makeText(this, "Finish a few sessions first, then try a conversation check.", Toast.LENGTH_LONG).show();
+            return;
+        }
+        int[] arr = new int[list.size()];
+        for (int i = 0; i < arr.length; i++) arr[i] = list.get(i);
+        Intent i = new Intent(this, ConversationActivity.class);
+        i.putExtra(ConversationActivity.EXTRA_SESSIONS, arr);
+        i.putExtra(ConversationActivity.EXTRA_FROM_PENDING, fromPending);
+        startActivity(i);
+    }
+
+    private void chooseCheckEvery() {
+        final int[] opts = {5, 10, 15, 20, 0};
+        String[] names = {"Every 5 sessions", "Every 10 sessions (default)", "Every 15 sessions", "Every 20 sessions", "Never (only from the menu)"};
+        int cur = Progress.checkEvery(this), sel = 1;
+        for (int i = 0; i < opts.length; i++) if (opts[i] == cur) sel = i;
+        new AlertDialog.Builder(this).setTitle("Conversation check")
+                .setSingleChoiceItems(names, sel, (d, w) -> {
+                    Progress.setCheckEvery(this, opts[w]);
+                    refreshStats();
+                    d.dismiss();
+                }).show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (overall != null) refreshStats();
     }
 
     private void chooseSpeed() {
